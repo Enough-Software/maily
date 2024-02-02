@@ -4,6 +4,8 @@ if (localPropertiesFile.exists()) {
     localPropertiesFile.withReader('UTF-8') { reader ->
         localProperties.load(reader)
     }
+} else {
+    throw new GradleException("local.properties file not found")
 }
 
 def flutterRoot = localProperties.getProperty('flutter.sdk')
@@ -32,6 +34,8 @@ if (keystorePropertiesFile.exists()) {
     keystorePropertiesFile.withReader('UTF-8') { reader ->
         keystoreProperties.load(reader)
     }
+} else {
+    keystoreProperties['storeFile'] = '.'
 }
 
 android {

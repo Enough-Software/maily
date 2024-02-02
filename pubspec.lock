@@ -29,10 +29,10 @@ packages:
     dependency: transitive
     description:
       name: analyzer_plugin
-      sha256: c1d5f167683de03d5ab6c3b53fc9aeefc5d59476e7810ba7bbddff50c6f4392d
+      sha256: "9661b30b13a685efaee9f02e5d01ed9f2b423bd889d28a304d02d704aee69161"
       url: "https://pub.dev"
     source: hosted
-    version: "0.11.2"
+    version: "0.11.3"
   ansicolor:
     dependency: transitive
     description:
@@ -357,18 +357,18 @@ packages:
     dependency: transitive
     description:
       name: custom_lint_builder
-      sha256: "7d0b094266b5c357769fffb920826b1a08373290f3c5c44b86253aae6873d5fc"
+      sha256: c6c13c7a36a50924e0e2d9e68e20eba456344368d8e3334b6ba88fe36bcfe1f2
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.11"
+    version: "0.5.12"
   custom_lint_core:
     dependency: transitive
     description:
       name: custom_lint_core
-      sha256: "77dd37e9afe5ed86fc75de22ed3dfae5afb75303111358766550af23e7de53cd"
+      sha256: a8dfd290347a73e352e44f4a62b67983d2514d439fef84ff455cab061643a569
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.11"
+    version: "0.5.12"
   dart_code_metrics:
     dependency: "direct dev"
     description:
@@ -389,10 +389,10 @@ packages:
     dependency: transitive
     description:
       name: dart_style
-      sha256: "1efa911ca7086affd35f463ca2fc1799584fb6aa89883cf0af8e3664d6a02d55"
+      sha256: "40ae61a5d43feea6d24bd22c0537a6629db858963b99b4bc1c3db80676f32368"
       url: "https://pub.dev"
     source: hosted
-    version: "2.3.2"
+    version: "2.3.4"
   dbus:
     dependency: transitive
     description:
@@ -586,10 +586,10 @@ packages:
     dependency: "direct overridden"
     description:
       name: ffi
-      sha256: "493f37e7df1804778ff3a53bd691d8692ddf69702cf4c1c1096a2e41b4779e21"
+      sha256: "7bf0adc28a23d395f19f3f1eb21dd7cfd1dd9f8e1c50051c069122e6853bc878"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.2"
+    version: "2.1.0"
   file:
     dependency: transitive
     description:
@@ -1447,10 +1447,10 @@ packages:
     dependency: transitive
     description:
       name: riverpod_analyzer_utils
-      sha256: d72d7096964baf288b55619fe48100001fc4564ab7923ed0a7f5c7650e03c0d6
+      sha256: d4dabc35358413bf4611fcb6abb46308a67c4ef4cd5e69fd3367b11925c59f57
       url: "https://pub.dev"
     source: hosted
-    version: "0.3.4"
+    version: "0.5.0"
   riverpod_annotation:
     dependency: "direct main"
     description:
@@ -1463,18 +1463,18 @@ packages:
     dependency: "direct dev"
     description:
       name: riverpod_generator
-      sha256: "5b36ad2f2b562cffb37212e8d59390b25499bf045b732276e30a207b16a25f61"
+      sha256: ff8f064f1d7ef3cc6af481bba8e9a3fcdb4d34df34fac1b39bbc003167065be0
       url: "https://pub.dev"
     source: hosted
-    version: "2.3.3"
+    version: "2.3.9"
   riverpod_lint:
     dependency: "direct dev"
     description:
       name: riverpod_lint
-      sha256: "70198738c3047ae4f6517ef1a2011a8514a980a52576c7f629a3a08810319a02"
+      sha256: "944929ef82c9bfeaa455ccab97920abcf847a0ffed5c9f6babc520a95db25176"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.1"
+    version: "2.3.7"
   rxdart:
     dependency: transitive
     description:

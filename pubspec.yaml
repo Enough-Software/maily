@@ -93,7 +93,7 @@ dependency_overrides:
   xml: ^6.4.2
   device_info_plus: ^9.1.0
   package_info_plus: ^4.2.0
-  ffi: ^2.1.0
+  ffi: 2.1.0
   uuid: ^4.0.0 # for dart_code_metrics
   web: ^0.4.0 # for flutter test from SDK / http
   pdfx: # fix util compatible version is released
@@ -108,12 +108,12 @@ dependency_overrides:
   # enough_mail_app:
   #   git:
   #     url: https://github.com/Enough-Software/enough_mail_app.git
-  # enough_mail_html:
-  #   git:
-  #     url: https://github.com/Enough-Software/enough_mail_html.git
   # enough_mail_flutter:
   #   git:
   #     url: https://github.com/Enough-Software/enough_mail_flutter.git
+  # enough_mail_html:
+  #   git:
+  #     url: https://github.com/Enough-Software/enough_mail_html.git
   enough_media:
     git:
       url: https://github.com/Enough-Software/enough_media.git
@@ -199,9 +199,9 @@ flutter:
   generate: false
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-    - assets/images/
-    - assets/images/providers/
+  # assets:
+    # - assets/images/
+    # - assets/images/providers/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
   # For details regarding adding assets from package dependencies, see
