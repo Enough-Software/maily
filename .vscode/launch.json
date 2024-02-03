@@ -5,18 +5,59 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "maily",
+            "name": "Maily",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define",
+                "GIPHY_API_KEY=${env:GIPHY_API_KEY}",
+                "--dart-define",
+                "OAUTH_GMAIL=${env:OAUTH_GMAIL}",
+                "--dart-define",
+                "OAUTH_OUTLOOK=${env:OAUTH_OUTLOOK}",
+            ],
+        },
+        {
+            "name": "Maily (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "args": [
+                "--dart-define",
+                "GIPHY_API_KEY=${env:GIPHY_API_KEY}",
+                "--dart-define",
+                "OAUTH_GMAIL=${env:OAUTH_GMAIL}",
+                "--dart-define",
+                "OAUTH_OUTLOOK=${env:OAUTH_OUTLOOK}",
+            ],
+        },
+        {
+            "name": "Maily (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "args": [
+                "--dart-define",
+                "GIPHY_API_KEY=${env:GIPHY_API_KEY}",
+                "--dart-define",
+                "OAUTH_GMAIL=${env:OAUTH_GMAIL}",
+                "--dart-define",
+                "OAUTH_OUTLOOK=${env:OAUTH_OUTLOOK}",
+            ],
+        },
+        {
+            "name": "maily (no config)",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "maily (profile mode)",
+            "name": "maily (no config, profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "maily (release mode)",
+            "name": "maily (no config, release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
