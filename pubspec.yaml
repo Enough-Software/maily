@@ -93,10 +93,10 @@ dependency_overrides:
   xml: ^6.4.2
   device_info_plus: ^9.1.0
   package_info_plus: ^4.2.0
-  ffi: 2.1.0
+  ffi: 2.1.0 # 2.1.2 is not compatible with Dart 3.2
   uuid: ^4.0.0 # for dart_code_metrics
   web: ^0.4.0 # for flutter test from SDK / http
-  pdfx: # fix util compatible version is released
+  pdfx: # 2.5.0 --> use git version util compatible version is released
     git:
       url: 'https://github.com/ScerIO/packages.flutter'
       path: packages/pdfx
@@ -198,8 +198,9 @@ flutter:
   # For localization / l10n:
   generate: false
 
-  # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/images/
+   
     # - assets/images/
     # - assets/images/providers/
   # An image asset can refer to one or more resolution-specific "variants", see
