@@ -102,18 +102,18 @@ dependency_overrides:
       path: packages/pdfx
 
   # out-comment the following to enable git-based development:
-  # enough_mail:
-  #   git:
-  #     url: https://github.com/Enough-Software/enough_mail.git
-  # enough_mail_app:
-  #   git:
-  #     url: https://github.com/Enough-Software/enough_mail_app.git
-  # enough_mail_flutter:
-  #   git:
-  #     url: https://github.com/Enough-Software/enough_mail_flutter.git
-  # enough_mail_html:
-  #   git:
-  #     url: https://github.com/Enough-Software/enough_mail_html.git
+  enough_mail:
+    git:
+      url: https://github.com/Enough-Software/enough_mail.git
+  enough_mail_app:
+    git:
+      url: https://github.com/Enough-Software/enough_mail_app.git
+  enough_mail_flutter:
+    git:
+      url: https://github.com/Enough-Software/enough_mail_flutter.git
+  enough_mail_html:
+    git:
+      url: https://github.com/Enough-Software/enough_mail_html.git
   enough_media:
     git:
       url: https://github.com/Enough-Software/enough_media.git
@@ -142,14 +142,14 @@ dependency_overrides:
     git:
       url: https://github.com/Enough-Software/enough_platform_widgets.git
   # out-comment the following to enable local development:
-  enough_mail:
-    path: ../enough_mail
-  enough_mail_app:
-    path: ../enough_mail_app
-  enough_mail_flutter:
-    path: ../enough_mail_flutter
-  enough_mail_html:
-    path: ../enough_mail_html
+  # enough_mail:
+  #   path: ../enough_mail
+  # enough_mail_app:
+  #   path: ../enough_mail_app
+  # enough_mail_flutter:
+  #   path: ../enough_mail_flutter
+  # enough_mail_html:
+  #   path: ../enough_mail_html
   # enough_icalendar:
   #   path: ../enough_icalendar
   # enough_mail_icalendar:

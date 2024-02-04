@@ -4,6 +4,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import 'account/provider.dart';
 import 'settings/provider.dart';
+import 'settings/ui/provider.dart';
 
 void main() {
   runApp(
@@ -11,8 +12,9 @@ void main() {
       overrides: [
         realAccountsProvider.overrideWith(CustomRealAccounts.new),
         settingsUiElementsProvider.overrideWith(CustomSettingsUiElements.new),
+        settingsProvider.overrideWith(CustomSettingsNotifier.new),
       ],
-      child: const MailyApp(),
+      child: const EnoughMailApp(),
     ),
   );
 }
