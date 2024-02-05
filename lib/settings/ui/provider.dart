@@ -1,6 +1,6 @@
 import 'package:enough_mail_app/enough_mail_app.dart';
-import 'package:flutter/widgets.dart';
 import 'package:go_router/go_router.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'provider.g.dart';
@@ -13,10 +13,10 @@ class CustomSettingsUiElements extends _$CustomSettingsUiElements
 
   @override
   List<UiSettingsElement> generate(
-    BuildContext context,
+    WidgetRef ref,
   ) {
-    final text = context.text;
-    final standardElements = SettingsUiElements.buildStandardElements(context);
+    final text = ref.text;
+    final standardElements = SettingsUiElements.buildStandardElements(ref);
 
     /// You can remove a standard element easily like this:
     // standardElements.removeType(UiSettingsType.welcome);
@@ -28,7 +28,7 @@ class CustomSettingsUiElements extends _$CustomSettingsUiElements
       UiSettingsElement.divider(),
       UiSettingsElement(
         title: text.settingsDevelopment,
-        onTap: () => context.pushNamed(Routes.settingsDevelopment),
+        onTap: () => ref.context.pushNamed(Routes.settingsDevelopment),
       ),
     ];
   }

@@ -7,7 +7,7 @@ part of 'provider.dart';
 // **************************************************************************
 
 String _$customSettingsUiElementsHash() =>
-    r'61ce1349e2b4f7db116731b2727e9e60edcd36ba';
+    r'42b64d585c8670932f61a474c9caa5a3d66fb135';
 
 /// See also [CustomSettingsUiElements].
 @ProviderFor(CustomSettingsUiElements)

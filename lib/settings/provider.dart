@@ -1,5 +1,4 @@
 import 'package:enough_mail_app/enough_mail_app.dart';
-import 'package:flutter/widgets.dart';
 
 /// Shows how to override the default settings
 class CustomSettingsNotifier extends SettingsNotifier {
@@ -9,10 +8,10 @@ class CustomSettingsNotifier extends SettingsNotifier {
   });
 
   @override
-  String getSignatureHtmlGlobal(BuildContext context) =>
-      state.signatureHtml ?? '<p>---<br/>${context.text.signature}</p>';
+  String getSignatureHtmlGlobal() =>
+      state.signatureHtml ?? '<p>---<br/>${ref.text.signature}</p>';
 
   @override
-  String getSignaturePlainGlobal(BuildContext context) =>
-      state.signaturePlain ?? '---\n${context.text.signature}';
+  String getSignaturePlainGlobal() =>
+      state.signaturePlain ?? '---\n${ref.text.signature}';
 }
