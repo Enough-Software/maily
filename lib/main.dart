@@ -14,7 +14,9 @@ void main() {
         settingsUiElementsProvider.overrideWith(CustomSettingsUiElements.new),
         settingsProvider.overrideWith(CustomSettingsNotifier.new),
       ],
-      child: const EnoughMailApp(),
+      child: const EnoughMailApp(
+        appName: 'Maily',
+      ),
     ),
   );
 }
