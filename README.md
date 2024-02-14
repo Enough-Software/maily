@@ -19,13 +19,13 @@ You can test an early access version of Maily today:
 * Multiple account support
 * Unified account - when you have at least 2 accounts, a unified account will show up automatically - with unified inbox, sent, trash, etc
 * Mail management: delete, mark as read/unread
-* Unsubscribe from newslettters easily
+* Unsubscribe from newsletters easily
 * View attachments in app - photos, PDFs, video and audio files 
 * Compose messages: compose new messages and reply to/forward mails with WYSIWG editor  
 * Save and continue draft messages
 * Attach photo-, audio-, video- or generic files. Attach your current location.
 * Swipe right to left to delete and swipe left to right to mark as read/unread
-* Personalizae swipe actions
+* Configurable swipe actions
 * Optionally you can block external images when viewing mails
 * You can specify aliases and check for + alias support by your mail provider
 * Swipe left or right in the message details to view the next/previous message

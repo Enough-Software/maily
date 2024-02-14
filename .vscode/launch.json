@@ -8,6 +8,7 @@
             "name": "Maily",
             "request": "launch",
             "type": "dart",
+        "program": "lib/main.dart",
             "args": [
                 "--dart-define",
                 "GIPHY_API_KEY=${env:GIPHY_API_KEY}",
@@ -21,6 +22,7 @@
             "name": "Maily (profile mode)",
             "request": "launch",
             "type": "dart",
+            "program": "lib/main.dart",
             "flutterMode": "profile",
             "args": [
                 "--dart-define",
@@ -35,6 +37,7 @@
             "name": "Maily (release mode)",
             "request": "launch",
             "type": "dart",
+            "program": "lib/main.dart",
             "flutterMode": "release",
             "args": [
                 "--dart-define",

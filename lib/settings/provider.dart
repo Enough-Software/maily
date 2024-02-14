@@ -1,17 +1,9 @@
 import 'package:enough_mail_app/enough_mail_app.dart';
-import 'package:flutter/material.dart';
 
 /// Shows how to override the default settings
 class CustomSettingsNotifier extends SettingsNotifier {
   /// Creates a new [CustomSettingsNotifier]
-  CustomSettingsNotifier()
-      : super(
-          settings: const Settings(
-            themeSettings: ThemeSettings(
-              colorSchemeSeed: Colors.pink,
-            ),
-          ),
-        );
+  CustomSettingsNotifier();
 
   @override
   String getSignatureHtmlGlobal() =>
