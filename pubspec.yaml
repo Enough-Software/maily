@@ -174,7 +174,7 @@ dependency_overrides:
 dev_dependencies:
   analyzer: ^6.4.1
   build_runner: ^2.4.6
-  custom_lint: ^0.5.3
+  custom_lint: ^0.6.2
   dart_code_metrics: 5.7.6
   flutter_lints: ^3.0.0
   flutter_native_splash: ^2.3.2
