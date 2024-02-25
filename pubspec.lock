@@ -499,7 +499,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "4acff84ef3e1ab074748b84ea8a374901fc872c7"
+      resolved-ref: "664696932851fb3bd5785f5583cd9a2514af6384"
       url: "https://github.com/Enough-Software/enough_mail.git"
     source: git
     version: "2.1.6"
@@ -508,7 +508,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: d0d3f4708ca960f0612d41f0695159ab11687f54
+      resolved-ref: "0086bf8e3e501c54b88359a4e209f93664d2355d"
       url: "https://github.com/Enough-Software/enough_mail_app.git"
     source: git
     version: "1.0.0+96"
@@ -517,7 +517,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "38eb65ca7a34c2a7695618ed1301d7159c4d9deb"
+      resolved-ref: "19a74d3d899a04eec04a5136d994f3f9bba0c204"
       url: "https://github.com/Enough-Software/enough_mail_flutter.git"
     source: git
     version: "2.1.0"
@@ -526,7 +526,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: c7702322848a3fcc12e18225edccc5a2bdf318d5
+      resolved-ref: d8580f6a1bf94977c8e33764a196b27657461a84
       url: "https://github.com/Enough-Software/enough_mail_html.git"
     source: git
     version: "2.0.1"
@@ -1094,10 +1094,10 @@ packages:
     dependency: "direct main"
     description:
       name: latlng
-      sha256: "8e462ded3f638f2f15f9b0de5f363540092b32aee3893d197fe301b4d865f92b"
+      sha256: a324c80073ef959d67ead88b57a717b7b87f182da1b980ccae92b3555ac82712
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.4"
+    version: "2.0.7"
   leak_tracker:
     dependency: transitive
     description:
@@ -1214,10 +1214,10 @@ packages:
     dependency: "direct main"
     description:
       name: map
-      sha256: dc1975a42304a91b4ab3fc7f064f554f18be0fbefb5bcd4ae95d1c087508a893
+      sha256: "1343b0168f62098525703cbd9ef8351acd2c87c7fa2b34f22d3d1b839e24769d"
       url: "https://pub.dev"
     source: hosted
-    version: "1.4.2"
+    version: "2.0.2"
   matcher:
     dependency: transitive
     description:
@@ -1495,10 +1495,10 @@ packages:
     dependency: "direct dev"
     description:
       name: riverpod_generator
-      sha256: "7340e2ac0fb05b2d893b049c45188a81443c2bd825d5f266cba06197867b0ade"
+      sha256: "359068f04879347ae4edbe66c81cc95f83fa1743806d1a0c86e55dd3c33ebb32"
       url: "https://pub.dev"
     source: hosted
-    version: "2.3.10"
+    version: "2.3.11"
   riverpod_lint:
     dependency: "direct dev"
     description:
