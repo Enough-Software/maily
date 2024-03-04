@@ -56,16 +56,13 @@ Every contribution is welcome. Since the project is licensed under the [GPL](LIC
 
 This is how you contribute:
 
-* Fork the [enough_mail_app](https://github.com/enough-software/enough_mail_app/) project by pressing the fork button.
-* Clone your fork to your computer: `git clone github.com/$your_username/enough_mail_app`
+* Fork the [maily](https://github.com/enough-software/maily/) project by pressing the fork button.
+* Clone your fork to your computer: `git clone github.com/$your_username/maily`
 * Do your changes. When you are done, commit changes with `git add -A` and `git commit`.
 * Push changes to your personal repository: `git push origin`
-* Go to [enough_mail_app](https://github.com/enough-software/enough_mail_app/) and create a pull request.
+* Go to [maily](https://github.com/enough-software/maily/) and create a pull request.
 
 When you have compile problems this is usually due to not getting the latest version from git. Call `flutter pub upgrade` to ensure that you are on the latest version of all referenced projects. Since translations are generated you can ignore all translation problems, just start the build, afterwards the localization compilation problems will be gone.
-
-For some features you will need to add the relevant keys to *assets/keys.txt*, currently the following key is required:
-* giphy: https://developers.giphy.com/ 
 
 ## Localizations
 When you change translations, re-generate the translations files by calling `flutter gen-l10n`.
@@ -78,10 +75,11 @@ When changing such classes, you have to re-run code generation
 by calling `dart run build_runner build --delete-conflicting-outputs`.
 
 ## License
-`enough_mail_app` is licensed under the [GNU Public License 3.0 "GPL"](LICENSE). In a nutshell this means that you can play around as much as possible for private reasons, but that you need to publish your changes under the GPL, as soon as you the code commercially.
+`maily` is licensed under the [GNU Public License 3.0 "GPL"](LICENSE). In a nutshell this means that you can play around as much as possible for private reasons, but that you need to publish your changes under the GPL, as soon as you the code commercially.
 
 ## Related Projects
 Check out these related projects:
+* [enough_mail_app](https://github.com/Enough-Software/enough_mail_app) base email app components in Flutter.
 * [enough_mail](https://github.com/Enough-Software/enough_mail) mail libraries in pure Dart.
 * [enough_mail_html](https://github.com/Enough-Software/enough_mail_html) generates HTML out of a `MimeMessage`.
 * [enough_mail_flutter](https://github.com/Enough-Software/enough_mail_flutter) provides some common Flutter widgets for any mail app.
