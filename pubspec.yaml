@@ -46,7 +46,8 @@ dependency_overrides:
   uuid: ^4.0.0 # for dart_code_metrics
   web: ^0.4.0 # for flutter test from SDK / http
   pdfx: ^2.6.0
-  js: ^0.6.7
+  js: ^0.7.1 # for pdfx 2.6
+  webview_flutter_android: 3.16.1 # compare https://github.com/pichillilorenzo/flutter_inappwebview/issues/2150
 
   # out-comment the following to enable git-based development:
   enough_mail:
