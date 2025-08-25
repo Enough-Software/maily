@@ -17,6 +17,24 @@
 		},
 		{
 			"path": "../enough_mail_html"
+		},
+		{
+			"path": "../enough_media"
+		},
+		{
+			"path": "../enough_giphy_flutter"
+		},
+		{
+			"path": "../enough_html_editor"
+		},
+		{
+			"path": "../enough_text_editor"
+		},
+		{
+			"path": "../enough_ascii_art"
+		},
+		{
+			"path": "../enough_platform_widgets"
 		}
 	],
 	"settings": {
