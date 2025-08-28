@@ -92,8 +92,8 @@ dependency_overrides:
   # out-comment the following to enable local development:
   # enough_mail:
   #   path: ../enough_mail
-  # enough_mail_app:
-  #   path: ../enough_mail_app
+  enough_mail_app:
+    path: ../enough_mail_app
   # enough_mail_flutter:
   #   path: ../enough_mail_flutter
   # enough_mail_html:

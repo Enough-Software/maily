@@ -23,10 +23,10 @@ tasks.register("clean", Delete) {
 }
 
 ext {
-    compileSdkVersion   = 34                // or higher / as desired
-    targetSdkVersion    = 34                // or higher / as desired
-    appCompatVersion    = "1.4.2"           // or higher / as desired
-    kotlin_version      = "2.0.0" 
+    compileSdkVersion   = 35                // or higher / as desired
+    targetSdkVersion    = 35                // or higher / as desired
+    appCompatVersion    = "1.7.0"           // or higher / as desired
+    kotlin_version      = "2.1.0"
 }
 
 

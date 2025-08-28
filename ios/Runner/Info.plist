@@ -70,5 +70,7 @@
 		<true/>
 		<key>UIStatusBarHidden</key>
 		<false/>
+		<key>NSContactsUsageDescription</key>
+		<string>This app requires access to contacts to allow selecting and displaying contact information about email recipients.</string>
 	</dict>
 </plist>
