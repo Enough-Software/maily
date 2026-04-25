@@ -1,0 +1,41 @@
+# ========================================
+# Copy these dependencies to your pubspec.yaml
+# ========================================
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management - BLoC Pattern
+  flutter_bloc: ^8.1.3
+  bloc: ^8.1.2
+  equatable: ^2.0.5
+
+  # Email Protocol (IMAP/SMTP)
+  enough_mail: ^2.1.7
+
+  # Utilities
+  intl: ^0.19.0  # Date formatting and localization
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Testing BLoCs
+  bloc_test: ^9.1.4
+
+  # Mocking for tests
+  mocktail: ^1.0.0
+
+# ========================================
+# After adding, run:
+# flutter pub get
+# ========================================
+
+# ========================================
+# Optional but recommended:
+# ========================================
+# dependencies:
+#   flutter_secure_storage: ^9.0.0  # For storing email passwords securely
+#   get_it: ^7.6.0                  # Dependency injection (if you use it)
+#   go_router: ^12.0.0              # Modern routing (if you use it)
