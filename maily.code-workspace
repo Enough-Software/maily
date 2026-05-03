@@ -35,6 +35,12 @@
 		},
 		{
 			"path": "../enough_platform_widgets"
+		},
+		{
+			"path": "../enough_icalendar"
+		},
+		{
+			"path": "../enough_icalendar_export"
 		}
 	],
 	"settings": {
